@@ -7,7 +7,6 @@ import com.minecraftdimensions.bungeesuitehomes.commands.DelHomeCommand;
 import com.minecraftdimensions.bungeesuitehomes.commands.HomeCommand;
 import com.minecraftdimensions.bungeesuitehomes.commands.HomesCommand;
 import com.minecraftdimensions.bungeesuitehomes.commands.ImportHomesCommand;
-import com.minecraftdimensions.bungeesuitehomes.commands.ReloadHomesCommand;
 import com.minecraftdimensions.bungeesuitehomes.commands.SetHomeCommand;
 import com.minecraftdimensions.bungeesuitehomes.listeners.HomesListener;
 import com.minecraftdimensions.bungeesuitehomes.listeners.HomesMessageListener;
