@@ -80,7 +80,7 @@ public class HomesManager {
                 if ( homedata != null ) {
                     for ( String homes : homedata ) {
                         Location loc = new Location( Bukkit.getWorld( user.getString( "homes." + homes + ".world" ) ), user.getDouble( "homes." + homes + ".x" ), user.getDouble( "homes." + homes + ".y" ), user.getDouble( "homes." + homes + ".z" ), ( float ) user.getDouble( "homes." + homes + ".yaw" ), ( float ) user.getDouble( "homes." + homes + ".pitch" ) );
-                        setHome( user.getString( "lastAccountName" ) homes, loc );
+                        setHome( user.getString( "lastAccountName" ), homes, loc );
                         homeCount++;
                     }
                 }
