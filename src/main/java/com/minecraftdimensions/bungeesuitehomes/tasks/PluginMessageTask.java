@@ -15,7 +15,10 @@ public class PluginMessageTask extends BukkitRunnable {
 	}
 	
 	public void run() {
-			Bukkit.getOnlinePlayers()[0].sendPluginMessage(
+			Player[] players = Bukkit.getOnlinePlayers().toArray(new Player[0]);
+			Player player = players[0];
+			
+			players.sendPluginMessage(
 					BungeeSuiteHomes.instance,
 					BungeeSuiteHomes.OUTGOING_PLUGIN_CHANNEL,
 					bytes.toByteArray());
